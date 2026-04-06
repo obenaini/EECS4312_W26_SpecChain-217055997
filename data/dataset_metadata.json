@@ -1,0 +1,2 @@
+{"App name": "Headspace Meditate Sleep Relax", "Dataset size": 5000, "Collection method": "Used the scrapper from the first link in the project handout. Modified it to take a maximum of 5000 reviews and only use Canadian reviews instead of U.S reviews.", "Cleaning decisions": "I decided to consider a review to be too short if it was 10 words or less. Specifically before any cleaning was done, such as removing stop words. Everything else was done as explicitly said in the handout, taking it in the strict sense of the word."}
+
