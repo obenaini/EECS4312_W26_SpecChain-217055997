@@ -2,11 +2,93 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Subscription price is too high.",
+      "review_ids": ["3", "6", "205", "296", "481", "525", "614", "630", "640", "1032"],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "sudden price increase doubled cost app notification change found subscription renewed",
+        "paid high amount app keep crashing mid session completely break rhythm concentration.",
+        "update seem make app worse constantly tell offline get error message shortly start play app expensive poor quality cancelled subscription something reliable",
+        "app slow expensive worth time money",
+        "expensive nearly one hundred dollar per year twenty per month rate power bill relief worldwide web greedy ppl suffering relief afford web system full spider ready pounce u instead give freely jesus see happens god approves"
+        ,"wanted try app used seven day free trial app thought cancelled subscription seven day trial charged thinking expensive package charged sixty nine ninety nine year worth nothing wanted asked refund even opened app used service mad read review say app even work half time want money back",
+        "app quite expensive constantly glitching used app quite time recently every time play track stop say internet connection incorrect issue please sorted",
+        "locked free meditation behind premium longer get premium anymore since expensive gotten rid lifetime membership keep sucking everyone wallet aggressive subscription model alright cause use meditopia able purchase lifetime subscription also better headspace meditation depth imo happy meditopia customer",
+        "app incredibly glitchy past six month expensive paid app really unacceptable",
+        "lately stopped working blank home screen many screen tried deleting reinstalling luck pretty expensive subscription bad experience"
+      ]
+      
+    },
+    {
+      "group_id": "G2",
+      "theme": "App is laggy or sluggish.",
+      "review_ids": ["5", "29", "30", "51", "118", "169", "174", "182", "279", "281"],
+      "example_reviews": [
+        "update becoming buggy crash way often lag playing session way much irritating especially app meant mediation",
+        "absolutely pathetic purchased one year subscription app completely unusable app ubearably slow often freeze mid session downloads randomly dissapear even log purchase older sixty five day get refund paid almost sixty euro year worth acces complete garbage app great work headspace team"
+        ,"vibe coding something last month app become slow unresponsive worked brilliantly first signed",
+        "predatory app slow messy ui superficial content super hard keep track anything app gave never received email subscription extended contacted immediately explained ill unable work moment still refuse cancel extension waste time stress leech money opposite anyone looking meditation app need",
+        "unfortunate leave review subscriber five year app always slow buggy able work around app left unusable state almost two month every single session crash couple minute contacted support team say aware issue two month long even basic functionality especially considering much charge",
+        "using headspace year think content within app really well done unfortunately app laggy slow taking multiple minute load page time also listening track screen turned ie sleep track focus music app almost always crash kick back main screen easy way resume listening really disappointing app performance hope team able fix soon",
+        "become extremely slow clunky content great always virtually impossible get sluggish ui take forever render",
+        "app slow night take minute load get relaxed app stop close much new stuff pixel ten pro google fi phone issue",
+        "content app good app incredibly slow open lag alot really acceptable app day age especially one paying",
+        "content loading slow app hard navigate considering paying monthly fee expectation higher"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Privacy concerns and misuse of user data.",
+      "review_ids": ["4", "50", "72", "105", "138", "144", "146", "159", "230", "321"],
+      "example_reviews": [
+        "app fantastic earth collecting data quote new privacy policy send respond email message chat communication headspace collect personal information include body content communication power machine learning algorithm ai personalise advert philosophical contradiction app seems greed driven breech privacy uninstalled",
+        "latest update yet nuked download section empty apps taking gb data downloads still listed frustrates lot happens regularly update also would let user set random set timer five min five hundred min let user decide music stop freaking loop music anyways make playlist basic future think",
+        "app worth subscription barely function session constantly interrupted pause skip content helpful session found free online app setting also default sharing selling personal data including information targetted ad disappointing",
+        "app lifesaver managing anxiety sleep using year lately min sleep cast crash wake start kinda defeat purpose tried change setting battery background data nothing seems help",
+        "expect seventy year app fifteen second loading screen every time click something recent update opt selling personal data app difficult navigate hundred meditation thing different word beginning always mean better",
+        "use google fit sync meditation data headspace however google moved away google fit moved health connect due unable connect google fit anymore google side oauth restriction affecting google fit api android fifteen",
+        "although good concept theory quite annoying practice even premium subscription one offline access whatsoever app load data turned two playing podcasts longer content pause regularly screen awake",
+        "ai substitute therapy headspace turned something genuinely helped sleep better something constantly pushed ai feature like used data canceled subscription nine year almost daily use",
+        "use dark pattern email preference setting sell user data using unclear language make click yes never trust company rely dark pattern aside app crash literally non stop",
+        "month app crash seventy five second playing claiming offline close app turn wifi mobile data turn back work relaxing experience"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Poor user interface and difficult navigation.",
+      "review_ids": ["38", "46", "51", "63", "118", "169", "182", "279", "281", "300"],
+      "example_reviews": [
+        "app back good fixed lag crashing design update least however still feel app look busy reminds social medium trying avoid stimulation",
+        "one extra star could used pretty good long since stopped syncing google fit matter try crash mid session attempt use basically app bricked recent update",
+        "predatory app slow messy ui superficial content super hard keep track anything",
+        "love content hate rank amateur ui basic functionality spend lot money new content either budget functionality someone incompetent charge",
+        "unfortunate leave review subscriber five year app always slow buggy able work around app left unusable state almost two month",
+        "using headspace year think content within app really well done unfortunately app laggy slow taking multiple minute load page time also hard navigate",
+        "become extremely slow clunky content great always virtually impossible get sluggish ui take forever render",
+        "app slow night take minute load get relaxed app stop close much new stuff pixel ten pro google fi phone issue",
+        "content loading slow app hard navigate considering paying monthly fee expectation higher",
+        "interface confusing difficult find meditation content used enjoy app much easier navigate before updates"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Sleep and meditation features affected by bugs or paywalls.",
+      "review_ids": ["12", "52", "68", "75", "76", "94", "98", "105", "110", "120"],
+      "example_reviews": [
+        "agree recent negative review app requiring paid subscription peforms really badly slow buggy frustratingly latest update offline downloads work anymore android mainly use downloaded content help sleep",
+        "damn good app huge library sound meditation useful mental health support routine plenty listening need help getting sleep unfortunately app horribly unstable",
+        "used love sleep cast repeat option continuous option would nice however since last app functionality suck",
+        "loved app year unfortunately sleepcasts started crashing minute past month updated app made sure wifi even bought new phone thinking still happens",
+        "used love app meditation great really help get sleep using app two year issue christmas suddenly started switching mid meditation",
+        "love headspace subscription year app seems buggy like ai ebb feature feel spending time getting app tho work sleep scape seem make night",
+        "looking good app sleep aid terrible sleep entire sleep aid part app locked behind pay wall",
+        "app lifesaver managing anxiety sleep using year lately min sleep cast crash wake start kinda defeat purpose",
+        "ap effective help much try today priced low",
+        "app incredibly buggy lately troubleshooting yield result reaching company seem help either much pay really poor experience"
       ]
     }
-  ]}
+  ]
+
+}
+
+
+  

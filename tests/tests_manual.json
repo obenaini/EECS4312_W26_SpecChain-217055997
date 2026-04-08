@@ -2,15 +2,244 @@
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "User views subscription pricing page",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the app",
+        "Navigate to subscription page"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "All pricing details including cost and billing cycle are clearly displayed"
+    },
+    {
+      "test_id": "T_manual_2",
+      "requirement_id": "FR1",
+      "scenario": "User checks for hidden fees",
+      "steps": [
+        "Review subscription details",
+        "Compare final checkout price"
+      ],
+      "expected_result": "No hidden or unexpected charges are present"
+    },
+
+    {
+      "test_id": "T_manual_3",
+      "requirement_id": "FR2",
+      "scenario": "User receives renewal notification",
+      "steps": [
+        "Activate subscription",
+        "Wait until renewal period approaches",
+        "Email or notification sent to the User"
+      ],
+      "expected_result": "User receives notification at least 3 days before renewal"
+    },
+    {
+      "test_id": "T_manual_4",
+      "requirement_id": "FR2",
+      "scenario": "User receives price change notification",
+      "steps": [
+        "Simulate price increase",
+        "Check user notifications"
+      ],
+      "expected_result": "User is notified before the new price is applied"
+    },
+
+    {
+      "test_id": "T_manual_5",
+      "requirement_id": "FR3",
+      "scenario": "App loads main screen",
+      "steps": [
+        "Launch app"
+      ],
+      "expected_result": "Main screen loads within 3 seconds"
+    },
+    {
+      "test_id": "T_manual_6",
+      "requirement_id": "FR3",
+      "scenario": "Navigate between pages",
+      "steps": [
+        "Open app",
+        "Switch between different tabs"
+      ],
+      "expected_result": "Each page loads within 3 seconds"
+    },
+
+    {
+      "test_id": "T_manual_7",
+      "requirement_id": "FR4",
+      "scenario": "Play meditation session",
+      "steps": [
+        "Start a meditation session"
+      ],
+      "expected_result": "Audio plays without buffering or lag"
+    },
+    {
+      "test_id": "T_manual_8",
+      "requirement_id": "FR4",
+      "scenario": "Long session playback",
+      "steps": [
+        "Play a 30 minutes or more session"
+      ],
+      "expected_result": "Playback remains smooth throughout"
+    },
+
+    {
+      "test_id": "T_manual_9",
+      "requirement_id": "FR5",
+      "scenario": "Access privacy settings and review settings",
+      "steps": [
+        "Open settings",
+        "Navigate to privacy section"
+      ],
+      "expected_result": "User can toggle data collection options"
+    },
+    {
+      "test_id": "T_manual_10",
+      "requirement_id": "FR5",
+      "scenario": "Disable data tracking",
+      "steps": [
+        "Navigate to privacy settings",
+        "Turn off data collection settings"
+      ],
+      "expected_result": "System stops collecting optional user data"
+    },
+
+    {
+      "test_id": "T_manual_11",
+      "requirement_id": "FR6",
+      "scenario": "Read privacy policy",
+      "steps": [
+        "Open privacy policy page"
+      ],
+      "expected_result": "Policy explains data usage clearly in simple terms"
+    },
+    {
+      "test_id": "T_manual_12",
+      "requirement_id": "FR6",
+      "scenario": "Check data usage explanation",
+      "steps": [
+        "Search for data usage section"
+      ],
+      "expected_result": "User can read what data is collected and why"
+    },
+
+    {
+      "test_id": "T_manual_13",
+      "requirement_id": "FR7",
+      "scenario": "Find meditation content",
+      "steps": [
+        "Open app",
+        "Navigate to a specific category"
+      ],
+      "expected_result": "User finds content within 3 interactions"
+    },
+    {
+      "test_id": "T_manual_14",
+      "requirement_id": "FR7",
+      "scenario": "Navigate homepage",
+      "steps": [
+        "Browse main interface"
+      ],
+      "expected_result": "Navigation feels intuitive and user friendly"
+    },
+
+    {
+      "test_id": "T_manual_15",
+      "requirement_id": "FR8",
+      "scenario": "Search for content",
+      "steps": [
+        "Enter keyword in search bar"
+      ],
+      "expected_result": "Relevant results are displayed"
+    },
+    {
+      "test_id": "T_manual_16",
+      "requirement_id": "FR8",
+      "scenario": "Apply filters",
+      "steps": [
+        "Select filters (e.g. sleep, anxiety, relaxing)"
+      ],
+      "expected_result": "Filtered results match selected criteria"
+    },
+
+    {
+      "test_id": "T_manual_17",
+      "requirement_id": "FR9",
+      "scenario": "Play sleep audio with screen off",
+      "steps": [
+        "Start sleep session",
+        "Turn off screen"
+      ],
+      "expected_result": "Audio continues playing without interruption"
+    },
+    {
+      "test_id": "T_manual_18",
+      "requirement_id": "FR9",
+      "scenario": "Overnight playback",
+      "steps": [
+        "Start long sleep audio"
+      ],
+      "expected_result": "Audio does not stop unexpectedly"
+    },
+
+    {
+      "test_id": "T_manual_19",
+      "requirement_id": "FR10",
+      "scenario": "Download content",
+      "steps": [
+        "Download a meditation session"
+      ],
+      "expected_result": "Content downloads successfully"
+    },
+    {
+      "test_id": "T_manual_20",
+      "requirement_id": "FR10",
+      "scenario": "Offline playback",
+      "steps": [
+        "Turn off internet",
+        "Play downloaded session"
+      ],
+      "expected_result": "Content plays without errors"
+    },
+
+    {
+      "test_id": "T_manual_21",
+      "requirement_id": "FR11",
+      "scenario": "General app usage",
+      "steps": [
+        "Use multiple features in the app"
+      ],
+      "expected_result": "App does not crash during use"
+    },
+    {
+      "test_id": "T_manual_22",
+      "requirement_id": "FR11",
+      "scenario": "Stress test app",
+      "steps": [
+        "Rapidly switch between features"
+      ],
+      "expected_result": "App remains stable and does not get slow or sluggish."
+    },
+
+    {
+      "test_id": "T_manual_23",
+      "requirement_id": "FR12",
+      "scenario": "Cancel subscription",
+      "steps": [
+        "Navigate to subscription settings",
+        "Click cancel"
+      ],
+      "expected_result": "Subscription is canceled within 3 steps"
+    },
+    {
+      "test_id": "T_manual_24",
+      "requirement_id": "FR12",
+      "scenario": "Verify cancellation confirmation",
+      "steps": [
+        "Cancel subscription",
+        "Check confirmation message"
+      ],
+      "expected_result": "User receives confirmation of cancellation"
     }
   ]
 }

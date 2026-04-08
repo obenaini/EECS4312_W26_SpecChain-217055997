@@ -1,22 +1,144 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Cost-Conscious Subscriber",
+      "description": "A user interested in meditation benefits but highly sensitive to subscription pricing and value for money.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Access meditation content at a reasonable price",
+        "Get consistent value from a paid subscription"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "Subscription cost is too high",
+        "Frequent price increases feel unfair",
+        "App quality does not match the price"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Evaluating whether to continue or cancel subscription",
+        "Comparing with free or cheaper alternatives"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Limited budget for subscriptions",
+        "Needs clear value justification for payment"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "3",
+        "296",
+        "630"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Frustrated Performance User",
+      "description": "A regular user who values smooth app performance but is hindered by lag and sluggish UI.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Use the app without delays or interruptions",
+        "Quickly access and play meditation sessions"
+      ],
+      "pain_points": [
+        "App is slow and unresponsive",
+        "Long loading times reduce usability",
+        "Lag disrupts relaxation experience"
+      ],
+      "context": [
+        "Using the app during short breaks",
+        "Trying to relax or meditate quickly"
+      ],
+      "constraints": [
+        "Limited time for sessions",
+        "Needs fast and responsive interface"
+      ],
+      "evidence_reviews": [
+        "5",
+        "118",
+        "279"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Privacy-Conscious User",
+      "description": "A user concerned about how their personal data is collected, stored, and used by the app.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Use meditation features without compromising privacy",
+        "Understand how their personal data is handled"
+      ],
+      "pain_points": [
+        "Concerns about data collection and tracking",
+        "Discomfort with AI using personal data",
+        "Lack of transparency in privacy policies"
+      ],
+      "context": [
+        "Reviewing app permissions and policies",
+        "Deciding whether to uninstall or continue using the app"
+      ],
+      "constraints": [
+        "Requires clear and transparent data practices",
+        "Avoids apps that misuse personal data"
+      ],
+      "evidence_reviews": [
+        "4",
+        "105",
+        "230"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Navigation-Struggling User",
+      "description": "A user who finds the app interface confusing and struggles to locate or organize desired content.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Easily find and access meditation content",
+        "Navigate the app intuitively"
+      ],
+      "pain_points": [
+        "Confusing or cluttered interface",
+        "Difficulty finding specific sessions",
+        "Poor organization of content"
+      ],
+      "context": [
+        "Browsing for specific meditation types",
+        "Using the app casually without deep exploration"
+      ],
+      "constraints": [
+        "Needs simple and intuitive UI",
+        "Prefers minimal steps to access content"
+      ],
+      "evidence_reviews": [
+        "38",
+        "51",
+        "300"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Sleep-Focused User",
+      "description": "A user who primarily uses the app for sleep support and relies on uninterrupted playback of sleep content.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Fall asleep using guided audio",
+        "Play sleep content without interruption"
+      ],
+      "pain_points": [
+        "Sleepcasts crash or stop session",
+        "Important sleep features locked behind paywalls",
+        "Bugs disrupt usage"
+      ],
+      "context": [
+        "Using the app before or during sleep",
+        "Listening with screen off in bed"
+      ],
+      "constraints": [
+        "Needs stable, uninterrupted playback",
+        "Cannot troubleshoot issues while trying to sleep"
+      ],
+      "evidence_reviews": [
+        "12",
+        "75",
+        "105"
+      ]
+    }
+  ]
+}
