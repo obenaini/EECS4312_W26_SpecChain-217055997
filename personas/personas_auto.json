@@ -1,0 +1,146 @@
+{
+  "personas": [
+    {
+      "id": "P1",
+      "name": "Frustrated Meditator",
+      "description": "A mindfulness app user experiencing frustration due to app crashes and slow performance",
+      "derived_from_group": "G1",
+      "goals": [
+        "To practice meditation and mindfulness without interruptions",
+        "To achieve mental well-being and relaxation"
+      ],
+      "pain_points": [
+        "App crashes during meditation sessions",
+        "Slow performance and unresponsiveness"
+      ],
+      "context": [
+        "Using the app for meditation and relaxation",
+        "Experiencing anxiety and stress"
+      ],
+      "constraints": [
+        "Unstable app performance",
+        "Lack of reliable support"
+      ],
+      "evidence_reviews": [
+        "sometimes using app meditation stopped",
+        "damn good app huge library sound meditation useful mental health support routine plenty listening need help getting sleep unfortunately app horribly unstable",
+        "meditation great insanely hard find anything app started guided program next day first showed today page disappeared",
+        "currently meditation keep auto pausing say offline despite perfect connection",
+        "used love app meditation great really help get sleep using app two year issue christmas suddenly started switching mid meditation",
+        "used headspace long time app become extremely unreliable meditation frequently stop show oops something went wrong",
+        "using app year great companion help focus ground mind andy undergone serious training qualified teaching meditation presence voice soothing help lot however past month app stop mid meditation saying problem session cut short"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Frustrated Health and Wellness User",
+      "description": "A loyal user frustrated with unexpected subscription auto-renewal and poor customer service",
+      "derived_from_group": "G2",
+      "goals": [
+        "Easy and transparent subscription management",
+        "Access to purchased features and services"
+      ],
+      "pain_points": [
+        "Unintended subscription auto-renewal",
+        "Poor customer service and support"
+      ],
+      "context": [
+        "Health and wellness app users",
+        "Subscription-based service model"
+      ],
+      "constraints": [
+        "Difficulty in canceling subscriptions",
+        "Lack of clear communication about renewal and pricing"
+      ],
+      "evidence_reviews": [
+        "sudden price increase doubled cost app notification change found subscription renewed",
+        "stuck endless loop trying log old account log webpage tell open app log app wrong credential option enter correct email address idea log cancel free trial con artist",
+        "poor app poor customer supporr high cost alot issue renewal wiithout informing refund policy"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Frustrated Meditator",
+      "description": "A meditation app user frustrated with frequent crashes, slow performance, and poor functionality",
+      "derived_from_group": "G3",
+      "goals": [
+        "Effective meditation and relaxation",
+        "Convenient access to meditation content"
+      ],
+      "pain_points": [
+        "Frequent app crashes",
+        "Slow performance and lag",
+        "Poor internet connectivity and offline functionality"
+      ],
+      "context": [
+        "Meditation and relaxation",
+        "Android device usage",
+        "Paid subscription holder"
+      ],
+      "constraints": [
+        "Unreliable app performance",
+        "Limited offline access",
+        "Poor customer support"
+      ],
+      "evidence_reviews": [
+        "update becoming buggy crash way often lag playing session way much irritating especially app meant mediation",
+        "paid high amount app keep crashing mid session completely break rhythm concentration",
+        "initially gave five star review however app buggy point unusable frequently connect internet despite apps working full signal connect take age load would great headspace team could look improve functionality app"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Frustrated Health Enthusiast",
+      "description": "A wellness-oriented individual frustrated with paywall restrictions on core features",
+      "derived_from_group": "G4",
+      "goals": [
+        "Access helpful mental wellness features",
+        "Relax and manage stress"
+      ],
+      "pain_points": [
+        "Paywall blocks access to core features",
+        "Overpriced subscription model"
+      ],
+      "context": [
+        "Seeking affordable mental wellness solutions",
+        "Dislikes being asked to pay for essential features"
+      ],
+      "constraints": [
+        "Limited budget",
+        "Values free or low-cost resources"
+      ],
+      "evidence_reviews": [
+        "app fantastic earth collecting data quote new privacy policy send respond email message chat communication headspace collect personal information include body content communication power machine learning algorithm ai personalise advert philosophical contradiction app seems greed driven breech privacy uninstalled",
+        "completely paywalled fifty quid subscription year overpriced worth",
+        "highly disappointed recommended app specialist find access anything either pay yearly subscription monthly nineteen ninety five discovered uninstalled app way afford another expense especially downloaded app help relax"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Frustrated Health Enthusiast",
+      "description": "A wellness-oriented individual who is frustrated with the cluttered and complicated interface of a meditation app.",
+      "derived_from_group": "G5",
+      "goals": [
+        "To easily navigate and utilize meditation app features",
+        "To achieve a peaceful and organized meditation experience"
+      ],
+      "pain_points": [
+        "Cluttered and complicated interface",
+        "Difficulty finding features and settings"
+      ],
+      "context": [
+        "Meditation and mindfulness practices",
+        "Seeking relaxation and stress relief"
+      ],
+      "constraints": [
+        "Limited patience for complex interfaces",
+        "Seeking a simple and intuitive user experience"
+      ],
+      "evidence_reviews": [
+        "incredible app get free headspace teen really helped look world positively ten ten",
+        "longtime user app absolutely loved also recommended plenty people back lately discontent ui way much content super cluttered headspace basic offering powerful one loved easy navigation succinct course guidance would sincerely urge developer make simpler ui headspace user swayed new content added every month",
+        "love content hate rank amateur ui basic functionality spend lot money new content either budget functionality someone incompetent charge year track pause crash partway way know meditating several minute later vocal instruction issue character limit complaint scripted empathic customer support change nothing"
+      ]
+    }
+  ]
+}

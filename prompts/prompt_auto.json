@@ -1,3 +1,25 @@
 {
-    "prompt": ""
+    "prompt": "You are analyzing user reviews for a meditation app.
+
+    Reviews:
+    {chr(10).join(sample_reviews)}
+
+    Task:
+    1. Identify the SINGLE most common, SPECIFIC issue or complaint.
+    2. Ignore generic topics like "meditation", "stress", or "mental health".
+    3. Focus on concrete problems (e.g., crashes, subscription cost, UI issues).
+    4. Write a short theme (max 8 words).
+
+    Good examples:
+    - "Frequent app crashes during sessions"
+    - "Subscription cost and billing issues"
+    - "Slow performance and laggy interface"
+
+    Bad examples:
+    - "Users struggle with meditation"
+    - "General dissatisfaction"
+
+    Return ONLY the theme."
+
+
 }
