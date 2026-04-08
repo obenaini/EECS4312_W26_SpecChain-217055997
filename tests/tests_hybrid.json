@@ -2,15 +2,115 @@
   "tests": [
     {
       "test_id": "T_hybrid_1",
-      "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "requirement_id": "FR1",
+      "scenario": "Ensure meditation session remains stable during network issues",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Start a meditation session",
+        "Simulate a network problem while in the session"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "The session pauses or displays an error message without crashing, allowing the user to resume when connection is restored.",
+      "notes": "clarified recovery behavior and emphasized resuming session for hybrid requirement FR1."
+    },
+    {
+      "test_id": "T_hybrid_2",
+      "requirement_id": "FR2",
+      "scenario": "App responds quickly when user interacts with features",
+      "steps": [
+        "Launch the app",
+        "Tap on the 'Start Meditation' button"
+      ],
+      "expected_result": "The app responds within 2 seconds and displays the meditation interface without noticeable delays.",
+      "notes": "maintained original scenario and steps, confirmed timing aligns with hybrid requirement FR2."
+    },
+    {
+      "test_id": "T_hybrid_3",
+      "requirement_id": "FR3",
+      "scenario": "User can manage subscription easily",
+      "steps": [
+        "Log in to account",
+        "Navigate to account settings"
+      ],
+      "expected_result": "User can view, update, and cancel subscription plan easily with clear instructions.",
+      "notes": "emphasized clarity and ease of use to match hybrid requirement FR3."
+    },
+    {
+      "test_id": "T_hybrid_4",
+      "requirement_id": "FR4",
+      "scenario": "User receives clear subscription renewal notifications",
+      "steps": [
+        "Log in to account",
+        "View account dashboard with approaching subscription renewal"
+      ],
+      "expected_result": "Clear notification about upcoming renewal and pricing is displayed, and user can take action if needed.",
+      "notes": "added expected actions to match hybrid requirement FR4."
+    },
+    {
+      "test_id": "T_hybrid_5",
+      "requirement_id": "FR5",
+      "scenario": "App recovers from technical issues during meditation session",
+      "steps": [
+        "Launch the meditation app and start a new session",
+        "Simulate a technical issue by forcing the app to crash during the session"
+      ],
+      "expected_result": "The app automatically recovers or provides a seamless way to resume the meditation session without data loss.",
+      "notes": "clarified recovery and resumed session behavior for hybrid requirement FR5."
+    },
+    {
+      "test_id": "T_hybrid_6",
+      "requirement_id": "FR6",
+      "scenario": "Access meditation content offline without issues",
+      "steps": [
+        "Download meditation content for offline use",
+        "Turn off internet connection",
+        "Open the meditation app",
+        "Select a downloaded meditation session to play"
+      ],
+      "expected_result": "The downloaded meditation session plays correctly without performance issues or loss of functionality.",
+      "notes": "clarified 'plays correctly' and 'without issues'"
+    },
+    {
+      "test_id": "T_hybrid_7",
+      "requirement_id": "FR7",
+      "scenario": "Access core mental wellness features without paywalls",
+      "steps": [
+        "Navigate to the system's homepage",
+        "Search for and access core mental wellness features"
+      ],
+      "expected_result": "Core mental wellness features are accessible without encountering paywalls or excessive fees.",
+      "notes": "reworded expected result for clarity"
+    },
+    {
+      "test_id": "T_hybrid_8",
+      "requirement_id": "FR8",
+      "scenario": "Review pricing for premium features transparently",
+      "steps": [
+        "Navigate to the premium features section",
+        "Review pricing model and benefits"
+      ],
+      "expected_result": "User understands costs and benefits clearly, without feeling misled or overcharged.",
+      "notes": "clarified transparency and comprehension to match hybrid requirement FR8."
+    },
+    {
+      "test_id": "T_hybrid_9",
+      "requirement_id": "FR9",
+      "scenario": "Navigate main menu and access features efficiently",
+      "steps": [
+        "Open the meditation app",
+        "Navigate to the main menu"
+      ],
+      "expected_result": "User can access meditation sessions, settings, and profile information within 2 clicks.",
+      "notes": "emphasized 'within 2 clicks' to align with hybrid requirement FR9."
+    },
+    {
+      "test_id": "T_hybrid_10",
+      "requirement_id": "FR10",
+      "scenario": "Verify clean and organized visual design",
+      "steps": [
+        "Launch the meditation app",
+        "Browse to a meditation session"
+      ],
+      "expected_result": "Screen is free of unnecessary graphics and text, and meditation guidance is clearly displayed in a calm and readable font.",
+      "notes": "maintained original scenario"
     }
   ]
 }

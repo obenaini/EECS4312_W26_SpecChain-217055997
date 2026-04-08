@@ -3,103 +3,104 @@
     {
       "test_id": "T_auto_1",
       "requirement_id": "FR1",
-      "scenario": "Valid input provided",
+      "scenario": "Maintaining a stable connection during meditation",
       "steps": [
-        "Enter valid data",
-        "Submit form"
+        "Start a meditation session",
+        "Simulate a network problem while in the session"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "The app displays an error message or pauses the session with a clear indication of the issue"
     },
     {
       "test_id": "T_auto_2",
       "requirement_id": "FR2",
-      "scenario": "Valid input provided",
+      "scenario": "User navigates to a feature and expects a quick response",
       "steps": [
-        "Enter valid data",
-        "Submit form"
+        "Launch the app",
+        "Tap on the 'Start Meditation' button"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "The app responds within 2 seconds and displays the meditation interface without noticeable delays"
     },
     {
       "test_id": "T_auto_3",
       "requirement_id": "FR3",
-      "scenario": "Valid input provided",
+      "scenario": "User manages subscription plan",
       "steps": [
-        "Enter valid data",
-        "Submit form"
+        "Log in to account",
+        "Navigate to account settings"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "View, update, and cancel subscription plan options are available"
     },
     {
       "test_id": "T_auto_4",
       "requirement_id": "FR4",
-      "scenario": "Valid input provided",
+      "scenario": "User receives clear notification about upcoming subscription renewal and pricing details",
       "steps": [
-        "Enter valid data",
-        "Submit the form"
+        "Log in to account",
+        "View account dashboard with approaching subscription renewal"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "Clear notification about upcoming renewal and pricing details is displayed"
     },
     {
       "test_id": "T_auto_5",
       "requirement_id": "FR5",
-      "scenario": "Validate data encryption",
+      "scenario": "App recovers from technical issue during meditation session",
       "steps": [
-        "Initialize encrypted data",
-        "Verify encryption key",
-        "Decrypt data"
+        "Launch the meditation app and start a new session",
+        "Simulate a technical issue by forcing the app to crash during the session"
       ],
-      "expected_result": "Decrypted data matches original data"
+      "expected_result": "The app automatically recovers or provides a seamless way to resume the meditation session without data loss"
     },
     {
       "test_id": "T_auto_6",
       "requirement_id": "FR6",
-      "scenario": "Validate data encryption",
+      "scenario": "Accessing downloaded meditation content offline",
       "steps": [
-        "Initialize encrypted data",
-        "Verify encryption key"
+        "Download meditation content for offline use",
+        "Turn off internet connection",
+        "Open the meditation app",
+        "Select a downloaded meditation session to play"
       ],
-      "expected_result": "Data is encrypted correctly"
+      "expected_result": "The downloaded meditation session plays without performance issues or loss of functionality"
     },
     {
       "test_id": "T_auto_7",
       "requirement_id": "FR7",
-      "scenario": "Valid input provided",
+      "scenario": "Access to core mental wellness features without paywalls",
       "steps": [
-        "Enter valid data",
-        "Submit form"
+        "The user navigates to the system's homepage",
+        "The user searches for and accesses the core mental wellness features"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "The user can access core mental wellness features without encountering paywalls or excessive subscription fees"
     },
     {
       "test_id": "T_auto_8",
       "requirement_id": "FR8",
-      "scenario": "Valid input provided",
+      "scenario": "User reviews premium feature pricing",
       "steps": [
-        "Enter valid data",
-        "Submit form"
+        "The user navigates to the premium features section",
+        "The user reviews the pricing model and benefits"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "The user understands the costs and benefits without feeling overcharged or misled"
     },
     {
       "test_id": "T_auto_9",
       "requirement_id": "FR9",
-      "scenario": "Valid input provided",
+      "scenario": "User navigates to main menu and accesses features",
       "steps": [
-        "Enter valid data",
-        "Submit form"
+        "The user opens the meditation app",
+        "The user navigates to the main menu"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "The user can find and access meditation sessions, settings, and profile information within 2 clicks"
     },
     {
       "test_id": "T_auto_10",
       "requirement_id": "FR10",
-      "scenario": "Valid input provided",
+      "scenario": "Clean and organized visual design for meditation session",
       "steps": [
-        "Enter valid data",
-        "Submit form"
+        "Launch the meditation app",
+        "Browse to a meditation session"
       ],
-      "expected_result": "Form submitted successfully"
+      "expected_result": "The screen is free of unnecessary graphics and text, and the meditation guidance is clearly displayed in a calm and readable font"
     }
   ]
 }
