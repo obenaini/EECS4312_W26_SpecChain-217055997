@@ -1,11 +1,11 @@
-{"pipeline": "manual",
-"dataset_size": 3861,
-"persona_count": 5,
-"requirements_count": 12,
-"tests_count": 24,
-"traceability_links": 16,
-"review_coverage": 0.01295,
-"traceability_ratio": 1,
-"testability_rate": 1,
-"ambiguity_ratio": 0.45
+{
+  "dataset_size": 3861,
+  "persona_count": 5,
+  "requirements_count": 11,
+  "tests_count": 24,
+  "traceability_links": 40,
+  "review_coverage": 0.0111,
+  "traceability_ratio": 1.0,
+  "testability_rate": 1.0,
+  "ambiguity_ratio": 0.5455
 }
