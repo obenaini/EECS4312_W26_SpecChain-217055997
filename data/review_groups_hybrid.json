@@ -1,13 +1,120 @@
-{  "groups": [
+{
+  "groups": [
     {
       "group_id": "H1",
-      "theme": "Workout logging failures during activity tracking",
-      "review_ids": ["rev_12", "rev_33", "rev_41", "rev_92"],
-      "example_reviews": [
-        "The app crashes whenever I try to log a run.",
-        "Logging workouts causes the app to freeze."
+      "theme": "Meditation sessions interrupted (pausing, stopping, or restarting mid-session)",
+      "review_ids": [
+        17,
+        31,
+        76,
+        78,
+        91,
+        93
       ],
-      "notes": "Removed one unrelated review about login problems from the original automated group."
+      "example_reviews": [
+        "sometimes using app meditation stopped",
+        "sometimes meditation cut mid session due connection issue app restart",
+        "currently meditation keep auto pausing say offline despite perfect connection",
+        "used love app meditation great really help get sleep using app two year issue christmas suddenly started switching mid meditation",
+        "meditation session relaxing needed break",
+        "app stop mid meditation saying problem session cut short unpredictable basis"
+      ],
+      "notes": "Removed general performance reviews and kept only issues specifically about meditation interruptions (pausing, stopping, cutting off mid-session)."
+    },
+    {
+      "group_id": "H2",
+      "theme": "Subscription, billing, and account access issues",
+      "review_ids": [
+        3,
+        9,
+        14,
+        26,
+        28,
+        42,
+        45,
+        58,
+        67,
+        70
+      ],
+      "example_reviews": [
+        "sudden price increase doubled cost app notification change found subscription renewed",
+        "stuck endless loop trying log old account",
+        "renewal premium charged higher premium disappointing",
+        "worked perfectly fine free trial premium feature lost access everything since cancelling",
+        "poor app poor customer support high cost alot issue renewal without informing",
+        "awful app charged year refund option"
+      ],
+      "notes": "Theme clarified to include login/account issues since many reviews involve not being able to access paid accounts, not just billing issues."
+    },
+    {
+      "group_id": "H3",
+      "theme": "App crashes, bugs, and overall performance issues",
+      "review_ids": [
+        5,
+        6,
+        8,
+        12,
+        20,
+        22,
+        29,
+        30,
+        38,
+        39
+      ],
+      "example_reviews": [
+        "update becoming buggy crash way often lag playing session",
+        "paid high amount app keep crashing mid session",
+        "app buggy point unusable frequently connect internet",
+        "app extremely frustrating slow constantly crashing",
+        "app unbearably slow often freeze mid session"
+      ],
+      "notes": "Separated from H1 by focusing on general app instability (crashes, lag, freezing), not just meditation interruptions."
+    },
+    {
+      "group_id": "H4",
+      "theme": "Paywall and high subscription cost limiting access",
+      "review_ids": [
+        7,
+        19,
+        21,
+        23,
+        24,
+        32,
+        36,
+        37,
+        44
+      ],
+      "example_reviews": [
+        "completely paywalled subscription overpriced worth",
+        "pay everything app good",
+        "access anything either pay yearly subscription",
+        "quite literally everything paid nothing free",
+        "expensive getting student discount impossible"
+      ],
+      "notes": "Removed unrelated privacy complaint (review 4). Focused strictly on paywall, pricing, and affordability concerns."
+    },
+    {
+      "group_id": "H5",
+      "theme": "Cluttered UI, missing features, and poor user experience",
+      "review_ids": [
+        15,
+        16,
+        33,
+        43,
+        49,
+        63,
+        68,
+        94,
+        104
+      ],
+      "example_reviews": [
+        "ui way much content super cluttered",
+        "please make setting turn haptic feedback",
+        "app functionality suck either open open feature stop working",
+        "basic functionality issues track pause crash",
+        "update good fact voice text hard keep typing"
+      ],
+      "notes": "Removed unrelated positive review. Expanded theme to include UX issues, missing features, and interface frustrations."
     }
   ]
 }

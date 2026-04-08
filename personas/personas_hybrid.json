@@ -2,30 +2,152 @@
   "personas": [
     {
       "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
+      "name": "Interrupted Meditation User",
+      "description": "A user who relies on uninterrupted meditation sessions but experiences frequent pauses, stops, or restarts during playback.",
       "derived_from_group": "H1",
       "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
+        "Complete meditation sessions without interruption",
+        "Maintain focus and relaxation during sessions"
       ],
       "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
+        "Meditation sessions pause or stop unexpectedly",
+        "Sessions restart or switch mid-playback"
       ],
       "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
+        "Using the app for guided meditation or sleep",
+        "Often using the app during quiet or nighttime routines"
       ],
       "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
+        "Playback must remain stable throughout sessions",
+        "Interruptions significantly reduce meditation effectiveness"
       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_41"
+        "sometimes using app meditation stopped",
+        "currently meditation keep auto pausing say offline despite perfect connection",
+        "used love app meditation great really help get sleep using app two year issue christmas suddenly started switching mid meditation",
+        "app stop mid meditation saying problem session cut short unpredictable basis"
       ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
+      "notes": "Refined to focus specifically on session interruptions (not general crashes or UI issues). Removed unrelated usability and performance claims."
+    },
+    {
+      "id": "P_hybrid_2",
+      "name": "Subscription-Frustrated User",
+      "description": "A paying or trial user who struggles with subscription management, unexpected charges, or difficulty accessing their account.",
+      "derived_from_group": "H2",
+      "goals": [
+        "Manage subscriptions easily and transparently",
+        "Access paid features without account issues"
+      ],
+      "pain_points": [
+        "Unexpected subscription renewals or charges",
+        "Difficulty logging into existing accounts",
+        "Poor or unhelpful customer support"
+      ],
+      "context": [
+        "Using a subscription-based wellness app",
+        "Attempting to manage billing or account access"
+      ],
+      "constraints": [
+        "Needs clear pricing and renewal communication",
+        "Must be able to access the correct account reliably"
+      ],
+      "evidence_reviews": [
+        "sudden price increase doubled cost app notification change found subscription renewed",
+        "stuck endless loop trying log old account",
+        "worked perfectly fine free trial premium feature lost access everything since cancelling",
+        "awful app charged year refund option"
+      ],
+      "notes": "Expanded to include both billing and account access issues. Removed vague generalizations and ensured all claims are supported by reviews."
+    },
+    {
+      "id": "P_hybrid_3",
+      "name": "Performance-Sensitive User",
+      "description": "A user who values smooth and reliable app performance but is frustrated by crashes, lag, and broken functionality.",
+      "derived_from_group": "H3",
+      "goals": [
+        "Use the app without crashes or delays",
+        "Access content quickly and reliably"
+      ],
+      "pain_points": [
+        "Frequent crashes during use",
+        "Slow loading times and lag",
+        "Features not working as expected (e.g., downloads, playback)"
+      ],
+      "context": [
+        "Regular use of the app for meditation or sleep",
+        "May be using both online and offline features"
+      ],
+      "constraints": [
+        "App must remain stable during use",
+        "Core features (playback, downloads) must function reliably"
+      ],
+      "evidence_reviews": [
+        "update becoming buggy crash way often lag playing session",
+        "app buggy point unusable frequently connect internet",
+        "app extremely frustrating slow constantly crashing",
+        "app unbearably slow often freeze mid session"
+      ],
+      "notes": "Separated from interruption specific issues (H1). Removed unsupported assumptions such as device type and focused on general performance problems."
+    },
+    {
+      "id": "P_hybrid_4",
+      "name": "Cost-Conscious User",
+      "description": "A user interested in mental wellness features but discouraged by high costs and limited free access.",
+      "derived_from_group": "H4",
+      "goals": [
+        "Access useful wellness content at low or no cost",
+        "Evaluate the app before committing to payment"
+      ],
+      "pain_points": [
+        "Most features are locked behind a paywall",
+        "Subscription cost feels too high",
+        "Limited free content available"
+      ],
+      "context": [
+        "Exploring the app for stress relief or relaxation",
+        "Comparing free vs paid wellness options"
+      ],
+      "constraints": [
+        "Limited budget for subscriptions",
+        "Needs meaningful free content to stay engaged"
+      ],
+      "evidence_reviews": [
+        "completely paywalled subscription overpriced worth",
+        "pay everything app good",
+        "access anything either pay yearly subscription",
+        "quite literally everything paid nothing free"
+      ],
+      "notes": "Removed unrelated privacy concerns and focused strictly on paywall and pricing issues. Ensured all points are directly supported by reviews."
+    },
+    {
+      "id": "P_hybrid_5",
+      "name": "Simplicity-Seeking User",
+      "description": "A user who prefers a clean and intuitive interface but struggles with cluttered design and missing or hard-to-find features.",
+      "derived_from_group": "H5",
+      "goals": [
+        "Navigate the app easily",
+        "Quickly find and use desired features"
+      ],
+      "pain_points": [
+        "Interface feels cluttered or overwhelming",
+        "Important features are hard to find or missing",
+        "Basic interactions are frustrating"
+      ],
+      "context": [
+        "Regular use of the app for relaxation or mindfulness",
+        "Interacting with menus, settings, and content libraries"
+      ],
+      "constraints": [
+        "UI must be simple and intuitive",
+        "Core features should be easily accessible"
+      ],
+      "evidence_reviews": [
+        "ui way much content super cluttered",
+        "please make setting turn haptic feedback",
+        "app functionality suck either open open feature stop working",
+        "love content hate rank amateur ui basic functionality"
+      ],
+      "notes": "Removed unrelated positive review and refined focus to UI/UX issues only. Avoided mixing in performance or subscription concerns."
     }
   ]
 }

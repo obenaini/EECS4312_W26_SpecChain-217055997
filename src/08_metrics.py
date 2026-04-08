@@ -4,12 +4,12 @@ import json
 import re
 
 
-GROUPS_PATH = "data/review_groups_auto.json"
-PERSONAS_PATH = "personas/personas_auto.json"
-SPEC_PATH = "spec/spec_auto.md"
-TESTS_PATH = "tests/tests_auto.json"
+GROUPS_PATH = "data/review_groups_hybrid.json"
+PERSONAS_PATH = "personas/personas_hybrid.json"
+SPEC_PATH = "spec/spec_hybrid.md"
+TESTS_PATH = "tests/tests_hybrid.json"
 DATASET_PATH = "data/reviews_clean.jsonl"
-OUTPUT_PATH = "metrics/metrics_auto.json"
+OUTPUT_PATH = "metrics/metrics_hybrid.json"
 
 
 with open(GROUPS_PATH, "r", encoding="utf-8") as f:
