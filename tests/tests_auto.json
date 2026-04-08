@@ -2,14 +2,104 @@
   "tests": [
     {
       "test_id": "T_auto_1",
-      "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
+      "requirement_id": "FR1",
+      "scenario": "Valid input provided",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Enter valid data",
+        "Submit form"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "Form submitted successfully"
+    },
+    {
+      "test_id": "T_auto_2",
+      "requirement_id": "FR2",
+      "scenario": "Valid input provided",
+      "steps": [
+        "Enter valid data",
+        "Submit form"
+      ],
+      "expected_result": "Form submitted successfully"
+    },
+    {
+      "test_id": "T_auto_3",
+      "requirement_id": "FR3",
+      "scenario": "Valid input provided",
+      "steps": [
+        "Enter valid data",
+        "Submit form"
+      ],
+      "expected_result": "Form submitted successfully"
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR4",
+      "scenario": "Valid input provided",
+      "steps": [
+        "Enter valid data",
+        "Submit the form"
+      ],
+      "expected_result": "Form submitted successfully"
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR5",
+      "scenario": "Validate data encryption",
+      "steps": [
+        "Initialize encrypted data",
+        "Verify encryption key",
+        "Decrypt data"
+      ],
+      "expected_result": "Decrypted data matches original data"
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR6",
+      "scenario": "Validate data encryption",
+      "steps": [
+        "Initialize encrypted data",
+        "Verify encryption key"
+      ],
+      "expected_result": "Data is encrypted correctly"
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR7",
+      "scenario": "Valid input provided",
+      "steps": [
+        "Enter valid data",
+        "Submit form"
+      ],
+      "expected_result": "Form submitted successfully"
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR8",
+      "scenario": "Valid input provided",
+      "steps": [
+        "Enter valid data",
+        "Submit form"
+      ],
+      "expected_result": "Form submitted successfully"
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR9",
+      "scenario": "Valid input provided",
+      "steps": [
+        "Enter valid data",
+        "Submit form"
+      ],
+      "expected_result": "Form submitted successfully"
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR10",
+      "scenario": "Valid input provided",
+      "steps": [
+        "Enter valid data",
+        "Submit form"
+      ],
+      "expected_result": "Form submitted successfully"
     }
   ]
 }
